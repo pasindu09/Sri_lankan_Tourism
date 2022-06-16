@@ -1,0 +1,12 @@
+#img-flex{
+    float: right;
+    display: flex;
+    flex-direction: column;
+  }
+  #img-flex .img1 img {
+  margin:1em .2em;
+  }
+  #img-flex .img1 img{
+    height: 256px;
+    width: 100%;
+    }
