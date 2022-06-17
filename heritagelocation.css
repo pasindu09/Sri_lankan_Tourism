@@ -1,12 +1,73 @@
-#img-flex{
-    float: right;
-    display: flex;
-    flex-direction: column;
-  }
-  #img-flex .img1 img {
-  margin:1em .2em;
-  }
-  #img-flex .img1 img{
-    height: 256px;
-    width: 100%;
-    }
+/*heritage page one main image and styling*/
+
+
+.headerheritagepage1{
+  background-image: url(Images/Anuradhapura.webp);
+  min-height: 80vh;
+  width: 100%;
+  background-size:cover;
+  background-position: center;
+}
+
+
+
+
+
+/*heritage site 1 page styling*/
+
+.section1heritage1{
+  background-color: wheat;
+  display: flex;
+  flex-direction: row;
+  border: 5px outset gold;       /*lightcoral*/
+  margin: 50px;
+}
+
+.section1heritage1 div{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+}
+
+.section1heritage1para{
+  align-self: center;
+}
+
+
+.section1heritage1img1{
+  padding-bottom: 50px;
+  width: 50%;
+}
+
+
+
+/*creating buttons for links*/
+.dtnheri1{
+
+  font-size: 1rem;
+  text-decoration: none;
+
+  font-weight: 400;
+
+  background-color: #303054;
+
+  color: #fff;
+
+  padding: 10px 20px;
+
+  border-radius: 5px;
+
+ 
+
+  transition: all 0.5s;
+
+}
+
+.dtnheri1:hover{
+
+  background-color: #e6edff;
+
+  color: #303054;
+
+}

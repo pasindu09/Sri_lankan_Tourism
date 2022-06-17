@@ -1,6 +1,4 @@
-/**{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}*/
+
 
 html{
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -43,6 +41,8 @@ body {
   transition: 0.6s ease;
 }
 
+
+
 .mynavbar {
   float: right;
   position: absolute;
@@ -53,9 +53,25 @@ body {
   border-radius: 4%;
 }
 
+
+
 .mynavbar a:hover{
   background-color: #fff;
   color: black;
+}
+
+
+
+@media (max-width: 500px){
+  .mynavbar a{
+    display: inline-block;
+    padding: 2px;
+    background-color: aqua;
+  }
+
+  .mynavbar{
+    padding-left: 35px;
+  }
 }
 
 
@@ -69,6 +85,7 @@ body {
   background-position: center;  
 }
 
+
 .headerwild{
   background-image: url(Images/wildlife\ main.jpg);
   min-height: 80vh;
@@ -76,6 +93,8 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+
 .headeractivities{
   background-image: url(Images/activitiesmain.webp);
   min-height: 80vh;
@@ -83,6 +102,7 @@ body {
   background-size: cover;
   background-position: center;
 }
+
 
 .headerbeach{
   background-image: url(Images/beachmain.jpg);
@@ -92,21 +112,16 @@ body {
   background-position: center;
 }
 
-.headerheritagepage1{
-  background-image: url(Images/Anuradhapura.webp);
+.headerpurchasedonatepage{
+  background-image: url(Images/purchaseanddonateim.webp);
   min-height: 80vh;
   width: 100%;
-  background-size:cover;
-  background-position: center;
+  background-size: cover;
+  background-position: center;  
 }
 
-.headerheritagepage2{
-  background-image: url(Images/hortainmain1.jpeg);
-  min-height: 80vh;
-  width: 100%;
-  background-size:cover;
-  background-position: center;
-}
+
+
 
 
 /*contentmainimage*/
@@ -120,6 +135,8 @@ body {
   text-align: center;
 }
 
+
+
 .mainheadingactivities{
   font-family:'Brush Script MT';
   width: 100%;
@@ -129,6 +146,8 @@ body {
   font-size: 150%;
   text-align: center;
 }
+
+
 
 .mainheadingbeaches{
   font-family:'Brush Script MT';
@@ -140,6 +159,8 @@ body {
   text-align: center;
 }
 
+
+
 .mainheadingwildlife{
   font-family:'Brush Script MT';
   width: 100%;
@@ -150,13 +171,17 @@ body {
   text-align: center;
 }
 
+
 /*Activites page styling */
 .activitysection1{
+  background-color: wheat;
   display: flex;
   flex-direction: row;
-  border: 5px solid #9c5b10;
+  border: 5px outset gold; /*lightcoral*/
   margin: 20px;
 }
+
+
 
 .activitysection1 div{
   flex: 1;
@@ -165,37 +190,41 @@ body {
   margin: 20px;
 }
 
+
+
 .hikingpara{
   align-self: center;
 }
+
 
 .hick{
   padding-bottom: 10px;
   border-radius: 10px;
 }
+
+
 .climbingpara{
   align-self: center;
 }
 
-/*Beach page styling*/
-/*.maintopicbeach{
-  
-}*/
 
+
+
+/*Beach page styling*/
 
 .section1beach{
-  background-color: lightblue;
+  background-color: wheat;
   display: flex;
   flex-direction: row;
-  border: 5px double wheat;
-  margin: 40px;
+  border: 5px outset gold;       /*lightcoral*/
+  margin: 20px;
 }
 
 .section1beach div{
   flex: 1;
   display: flex;
   flex-direction: column;
-  margin: 50px;
+  margin: 20px;
 }
 
 .section1beachpara{
@@ -203,89 +232,11 @@ body {
   align-self: center;
 }
 
-
-.section1beachimg1{
-  padding-bottom: 50px;
-  width: 50%;
+@media (max-width: 500px){
+  .section1beach{
+    flex-direction: column;
+  }
 }
-
-
-/*heritage site 1 page styling*/
-
-.section1heritage1{
-  background-color:  #C0C0C0;
-  display: flex;
-  flex-direction: row;
-  border: 5px solid #666666;
-  margin: 50px;
-}
-
-.section1heritage1 div{
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  margin: 50px;
-}
-
-.section1heritage1para{
-  align-self: center;
-}
-
-
-.section1heritage1img1{
-  padding-bottom: 50px;
-  width: 50%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/*hertigae site 2  page styling*/
-
-
-.section1heritage2{
-  background-color:  #C0C0C0;
-  display: flex;
-  flex-direction: row;
-  border: 5px solid #666666;
-  margin: 50px;
-}
-
-.section1heritage2 div{
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  margin: 50px;
-}
-
-.section1heritage2para{
-  align-self: center;
-}
-
-
-.section1heritage2img1{
-  padding-bottom: 50px;
-  width: 50%;
-}
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -296,33 +247,26 @@ body {
   background-color: wheat;
   display: flex;
   flex-direction: row;
-  border: 7px outset lightcoral;       /**/
-  margin: 50px;
+  border: 5px outset gold;       /*lightcoral*/
+  margin: 20px;
 }
 
 .section1home div{
   flex: 1;
   display: flex;
   flex-direction: column;
-  margin: 50px;
+  margin: 20px;
+}
+
+@media (max-width: 1000px){
+  .section1home{
+    flex-direction: column;
+  }
 }
 
 .section1home{
   align-self: center;
 }
-
-
-.section1homeimg1{
-  padding-bottom: 50px;
-  width: 50%;
-}
-
-
-
-
-
-
-
 
 
 
@@ -331,38 +275,34 @@ body {
 /*Purchase and donate page styling*/
 
 .section1purchase{
-  background-color:  #C0C0C0;
+  background-color: wheat;
   display: flex;
   flex-direction: row;
-  border: 5px solid #666666;
-  margin: 50px;
+  border: 5px outset gold;       /*lightcoral*/
+  margin: 20px;
 }
 
 .section1purchase div{
   flex: 1;
   display: flex;
   flex-direction: column;
-  margin: 50px;
+  margin: 20px;
 }
 
 .section1purchasepara{
   align-self: center;
 }
 
-
-.section1purchaseimg1{
-  padding-bottom: 50px;
-  width: 50%;
+@media (max-width: 800px){
+  .section1purchase{
+    flex-direction: column;
+  }
 }
 
-
-
-
-
-
-
-
-
+.donatedisclaimer{
+  border: 2px dotted black;
+  background-color: yellow;
+}
 
 
 
@@ -371,18 +311,18 @@ body {
 /*Type of wildlife page styling*/
 
 .section1wildlife{
-  background-color:  #C0C0C0;
+  background-color: wheat;
   display: flex;
   flex-direction: row;
-  border: 5px solid #666666;
-  margin: 50px;
+  border: 5px outset gold;       /*lightcoral*/
+  margin: 20px;
 }
 
 .section1wildlife div{
   flex: 1;
   display: flex;
   flex-direction: column;
-  margin: 50px;
+  margin: 20px;
 }
 
 .section1wildlifepara{
@@ -390,13 +330,25 @@ body {
 }
 
 
-.section1wildlifeimg1{
-  padding-bottom: 50px;
-  width: 50%;
+@media (max-width: 1000px){
+    .section1wildlife{
+      flex-direction: column;
+    }
 }
 
 
+.wildlifetable{
+  overflow-x: auto;
+}
 
+table{
+  width: 100%;
+  background-color: beige;
+}
+
+td, th{
+  border: 3px solid #000;
+}
 
 
 
@@ -404,6 +356,7 @@ body {
 /*The footer design*/
 .footermain{
   display: flex;
+  background-image:url(Images/footerback.webp);
 }
 
 .footer1{
@@ -413,6 +366,7 @@ body {
 .footer2{
   list-style: none;
 }
+
 .footer3{
   list-style: none;
 }
@@ -421,8 +375,16 @@ body {
   list-style: none;
 }
 
+#s1 {
+  text-decoration: none;
+  color: black;
+}
 
-@media only screen and (max-width: 1300px){
+#footermaintopic {
+  color: white;
+}
+
+@media (max-width: 1300px){
   .activitysection1{
     flex-direction: column;
   }
@@ -431,8 +393,52 @@ body {
 
 
 
+/*creating buttons for links*/
+.dtn{
 
+  font-size: 1rem;
+  text-decoration: none;
 
+  font-weight: 400;
+
+  background-color: #303054;
+
+  color: #fff;
+
+  padding: 10px 20px;
+
+  border-radius: 5px;
+
+ 
+
+  transition: all 0.5s;
+
+}
+
+.dtn:hover{
+
+  background-color: #e6edff;
+
+  color: #303054;
+
+}
+
+.footermain{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+.footermain ul{
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 500px){
+  .footermain{
+    flex-direction: column;
+  }
+}
 
 
 
