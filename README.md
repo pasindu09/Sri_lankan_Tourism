@@ -4,14 +4,14 @@
 
 ## Table of Contents
 
-- [About MyStoreOnline](#about-MyStoreOnline)
+- [About Sri_lankan_Tourism](#about-Sri_lankan_Tourism)
 - [Screenshots](#screenshots)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
   - [Website Link](#installation)
 - [Contact](#contact)
 
-## About MyStoreOnline
+## About Sri_lankan_Tourism
 
 Welcome to My First web application for Sri Lankan Tourism, an platform designed to promote tourism.
 
@@ -28,7 +28,7 @@ Welcome to My First web application for Sri Lankan Tourism, an platform designed
 
 ## Technologies Used
 
-- **Frontend** - HTML, CSS, JavaScript, CSS.
+- **Frontend** - HTML, CSS, JavaScript.
 
 ## Getting Started
 
