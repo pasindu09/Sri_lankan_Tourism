@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/9141628b-0389-449c-94a0-0158b19f874c" alt="Sri_lankan_Tourism" height="400" width="400">
+  <img src="https://github.com/user-attachments/assets/9141628b-0389-449c-94a0-0158b19f874c" alt="Sri_lankan_Tourism" height="400" width="700">
 </div>
 
 ## Table of Contents
