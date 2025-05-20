@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/pasindu09/Sri_lankan_Tourism/images/apple-touch-icon.png" alt="Sri_lankan_Tourism" height="200" width="200">
+  <img src="https://github.com/pasindu09/Sri_lankan_Tourism/Images/apple-touch-icon.png" alt="Sri_lankan_Tourism" height="200" width="200">
 </div>
 
 ## Table of Contents
