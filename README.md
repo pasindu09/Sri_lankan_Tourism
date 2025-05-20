@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/9141628b-0389-449c-94a0-0158b19f874c" alt="Sri_lankan_Tourism" height="400" width="700">
+  <img src="https://github.com/user-attachments/assets/ebb0e1ab-398a-4075-98bf-2db8d2b90203" alt="Sri_lankan_Tourism" height="200" width="200">
 </div>
 
 ## Table of Contents
@@ -20,7 +20,7 @@ Welcome to My First web application for Sri Lankan Tourism, an platform designed
 ### Home Page
 
 <div align="center">
-  <img src="https://github.com/pasindu09/Sri_lankan_Tourism/Images/screenshot"
+  <img src="https://github.com/user-attachments/assets/9141628b-0389-449c-94a0-0158b19f874c"
         alt="Sri_lankan_Tourism_home"
         width="600">
  
